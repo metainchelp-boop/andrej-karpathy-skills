@@ -1,0 +1,10 @@
+{
+  "name": "metainc-ops",
+  "description": "메타아이앤씨 운영 스킬 — 배포 허브(ready PR 취합·검증·저녁 일괄 배포 안내)",
+  "version": "1.0.0",
+  "author": {
+    "name": "메타아이앤씨",
+    "email": "metainchelp@gmail.com"
+  },
+  "keywords": ["deploy", "release", "ops", "metainc"]
+}
