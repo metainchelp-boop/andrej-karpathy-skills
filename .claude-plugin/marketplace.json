@@ -1,29 +1,16 @@
 {
-  "name": "karpathy-skills",
-  "id": "karpathy-skills",
+  "name": "metainc-plugins",
   "owner": {
-    "name": "forrestchang"
+    "name": "메타아이앤씨",
+    "email": "metainchelp@gmail.com"
   },
-  "metadata": {
-    "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations",
-    "version": "1.0.0"
-  },
+  "description": "메타아이앤씨 Claude Code 플러그인 마켓플레이스",
   "plugins": [
     {
-      "name": "andrej-karpathy-skills",
-      "source": "./",
-      "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
-      "version": "1.0.0",
-      "author": {
-        "name": "forrestchang"
-      },
-      "keywords": [
-        "guidelines",
-        "best-practices",
-        "coding",
-        "karpathy"
-      ],
-      "category": "workflow"
+      "name": "metainc-ops",
+      "source": "./plugins/metainc-ops",
+      "description": "메타아이앤씨 운영 스킬 — 배포 허브",
+      "version": "1.0.0"
     }
   ]
 }
